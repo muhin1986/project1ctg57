@@ -1,0 +1,176 @@
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+* {}
+body {margin: 0;padding: 0;}
+.row{margin:0;padding: 0;}
+
+.navbar-default .navbar-nav>.active>a{
+font-weight: bold;color: #555;
+background-color: #ffffff;}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #ffffff;}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: rgb(255, 255, 255);
+    border-radius:0;
+}
+/*social icon*/
+.s_icon {
+/*    float: right;*/
+    background-color: gainsboro;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.fa{margin-left: 8px;
+    margin-top: 5px;}
+/* end social icon*/
+/*start part1 slider*/
+.s_title{background-color: beige;height: 30px;margin-bottom: 25px;}
+.s_title0{background-color: rgba(96, 125, 139, 0.66);height: 5px;width: 80%;margin: auto;}
+.mbtn {
+    text-align: center;
+    margin-top: 15px;
+}
+.btn-primary {
+    color: #474040;
+    background-color: #ffffff;
+    border-color: #2e6da4;
+}
+
+.main_s_area{background-color:#fdfeff; height: 200px;margin-top: 20px;}
+/*End part1 slider*/
+/*start part2*/
+.part2{background-color: gainsboro;}
+.main3 {
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+.m3bottom{}
+.m3title {
+    background-color: #bfbfb6;
+    height: 30px;
+    width: 55%;
+    margin-bottom: 15px;
+}
+.m3para{
+    background-color: rgba(96, 125, 139, 0.66);
+    height: 5px;
+    margin-bottom: 15px;
+}
+
+.p2img{
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+/*end part2*/
+
+/*part3 start*/
+.p3h1{margin-top: 35px;margin-bottom: 35px;}
+.p3h1 h1{}
+.p3h1 p{text-align: justify;line-height: 30px;}
+.p3img{margin-top: 35px;margin-bottom: 35px;}
+.p3h3{text-align: center;}
+.p3main {
+
+    margin: auto;
+    margin-bottom: 15px;
+}
+/*part3 end*/
+/*start part4*/
+.part4{}
+.p4first{margin-top: 50px;}
+.p4main{margin-top: 15px;margin-bottom: 30px;}
+.p4pro img{background-color: gainsboro;height: 130px;width: 130px;border-radius: 25em;margin: auto;;}
+.p4con{padding: 10px;}
+.p4con h1{}
+.p4con p{text-align: justify;}
+/*end part4*/
+
+/*<!--    part5 start-->*/
+.part5{background-color: gainsboro;}
+.f_title {
+    margin-bottom: 40px;
+}
+.f_title p{text-align: justify;}
+.f_s_icon{}
+.f_s_icon ul{list-style: none;padding: 0;}
+.f_s_icon li{
+    display: inline-block;
+    background-color:#bbb2b2;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.f_gettouch p{text-align: justify;}
+#con_f{margin: auto;overflow: hidden;}
+#name{margin-bottom: 5px;}
+#mail{margin-bottom: 5px;}
+#Contuctnumber{margin-bottom: 5px;}
+#subject{margin-bottom: 5px;}
+/*<!--    end part5-->*/
+/*start part6*/
+.end{margin-top: 25px;margin-bottom: 25px;}
+.end ul{list-style: none;}
+.end li{display: inline-block;margin-right: 40px;}
+.end a{font-size: 18px;}
+.top_g_p{position: relative;}
+.top_go {
+    background-color: #6d6464;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -26px;
+}
+/*end part6*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .s_icon{display: none;}
+    .top_go{display: none;}
+    .p3h1 h1 {
+    font-size: 24px;
+}
+    .p4con h1 {
+    font-size: 25px;
+}
+}
+
+ 
+@media (min-width: 768px) {
+        height: 87px;
+    width: 80px;
+}
+    .p3h1 p {
+    line-height: 20px;
+    font-size: 13px;
+}
+/*
+    .end a {
+    font-size: 12px;
+}
+.end li {
+
+    margin-right: 20px;
+}
+*/
+    }
+
